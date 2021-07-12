@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Icon links-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Style for image --> 
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 50%;
+  }
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  </style>
+
+
+  </head>
+
+
+  <body>
+    
+<!-- This is my navbarcode -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+     <img src="Image/logo-1.png" style="width:50px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">           <!-- ml - auto mean - margin left automatic -->
+                                            <!-- mr - auto mean - margin right automatic -->
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">About us</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="contactus.html">Contact us</a>
+    </li>
+
+
+<form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+
+  </ul>
+</nav>
+
+
+<!-- This is about us -->
+
+<section>
+  <br> <br>     <!-- line break --> 
+
+
+  <img src="Image/aboutus.jpeg" width="1350" height="500" class="center">
+
+  <br> <br>      <!-- line break --> 
+
+<div class="container">
+
+  <div> 
+    <h1 style="text-align:center; color:DarkRed; font-family:montserrat "><b>ABOUT US</b></h1>
+  </div>
+
+<br><br>
+    <div class="row"> <!-- my first row-->
+
+      <div class="col"> <!-- First column-->
+      <img src="Image/jean1.jpeg" width="500" height="450">
+      </div>
+      <div class="col">   <!-- Second column-->
+        <br><br><br>
+        <h3 style="color:Darkred; font-family:montserrat"><b> BETTER CLOTHES. </b></h3>
+        <h3 style="color:Darkred; font-family:montserrat"><b> BETTER CHOICES. </b></h3>
+        <h3 style="color:Darkred; font-family:montserrat"><b> BETTER PLANET. </b></h3>
+        <p> We focus on the innovations that make our jeans and all other products as durable as ever—materials crafted with thoughtful quality from sourcing to finishing, that help create a bond between you and the products you buy. With our innovations in Cottonized Hemp, Levi’s® WellThread, Water Less® technology and other production techniques, we’re using less resources and making less waste. Our philosophy on durability extends beyond just everyday use. Levi’s® products are made to be worn and designed to get better with age. </p>
+      </div>
+    </div>
+
+
+      <br>
+
+    <div class="row"> <!-- my second row-->
+    
+      <div class="col">   <!-- 1st column-->
+        <br><br><br><br><br><br>
+        <h3 style="color:Darkred; font-family: montserrat;"><b> MADE TO STAND THE TEST OF TIME. </b></h3>
+        <p> We have sustainable practices and methods that help make our products stand the test of time, and everything we make is rigorously tested for durability. Learn more. Our Tailor Shop can repair or redesign your clothing to literally last a lifetime. In the US, we also introduced SecondHand in 2020 as a way to further demonstrate this commitment to longevity by extending the life of our own products even further and offering customers the vintage styles they love.</p>
+      </div> 
+
+      <div class="col"> 
+           <img src="Image/jean.jpeg" width="450" height="450">
+      </div>
+  </div>    
+
+<!-- This is meet my team -->
+<br><br><br>
+
+    <h1 style="text-align:center; color:DarkRed; font-family: montserrat;"><b>MEET THE TEAM</b></h1>
+
+<br><br>
+
+    <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Image/Levi.jpeg" alt="Jane" style="width:100%">
+      <div class="container"><br>
+        <h2 style="color:Darkred; font-family: montserrat"><b>Levi Strauss</b></h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>The inventor of the American garment</p>
+        <p>LeviStrauss@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Image/levi 2.jpeg" alt="Mike" style="width:100%">
+      <div class="container"><br>
+        <h2 style="color:Darkred; font-family:montserrat"><b>Tawn C</b></h2>
+        <p class="title">Levis Designer</p>
+        <p>Only make best jeans.</p>
+        <p>TawnC@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Image/cheng.png" alt="John" style="width:100%">
+      <div class="container"><br>
+        <h2 style="color:Darkred; font-family: montserrat"><b>Jonathan Cheung</b></h2>
+        <p class="title">Art Director</p>
+        <p>Make Levis great again</p>
+        <p>Cheung@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<br><br>
+<!--Testimonials -->
+<style> 
+/* Style the container with a rounded border, grey background and some padding and margin */
+.boxchat {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 250px;
+}
+
+/* Clear floats after containers */
+.boxchat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.boxchat img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.boxchat span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .boxchat {
+    text-align: center;
+  }
+
+  .boxchat img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+</style>
+
+
+<div class="boxchat">
+  <img src="Image/dd.jpeg" alt="Avatar" style="width:90px">
+  <p style="font-family: montserrat"><span><b>Mr Stark.</b></span> CEO at Stark Company.</p>
+  <p>You saved us from a web disaster.</p>
+</div>
+
+<div class="boxchat">
+  <img src="Image/123.jpeg" alt="Avatar" style="width:90px">
+  <p style="font-family: montserrat"><span><b>Felix Chin.</b></span> CEO at Company.</p>
+  <p>No jeans is better than Levis.</p>
+</div>
+<br><br>
+
+
+</section>
+
+<!-- Footer-->
+
+<style>
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: ghostwhite;
+  color: white;
+  text-align: center;
+  padding-bottom : 70px ;
+}
+</style>
+
+<div class="footer">
+<br><br>
+  <h1 style="color:Darkred; font-family: montserrat"><b>Wear Levis Jeans</b></h1>
+  <p style="color:Darkred; font-family: montserrat">Wear lifestyle</p>
+  <br><br><br>
+
+
+
+<!-- The social media icon bar -->
+<style>
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
+/* Style the icon bar links */
+.icon-bar a {
+  
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  width:30px;
+  border-radius: 50%;
+
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+</style>
+
+
+  <div class="icon-bar">
+  <a href="https://www.facebook.com/Levis.Vietnam" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/LEVIS" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.google.com.vn/?hl=vi" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.youtube.com/user/levis" class="youtube"><i class="fa fa-youtube"></i></a>
+
+</div>
+
+<div>
+  <br><br><br>
+  <p style="color:darkred; font-family:montserrat"> © 2021 LEVI STRAUSS & CO</p>
+</div>
+</div>
+
+
+
+
+
+
+
